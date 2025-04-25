@@ -1,0 +1,36 @@
+# Environment variables
+.env
+
+# Python virtual environment
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vercel 
+.vercel
+
+# Local data files
+venmo_data.json
+mock_venmo_data.json
+new_transactions.json
+venmo_api_error.json
+mock_call_counter.json
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac OS
+.DS_Store 

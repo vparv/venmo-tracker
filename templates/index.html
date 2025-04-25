@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venmo Transactions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+      <header class="mb-8">
+        <h1 class="text-3xl font-bold text-gray-800">Venmo Transactions</h1>
+        <p class="text-gray-600">Your recent Venmo activity</p>
+      </header>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+        <div class="p-4 border-b border-gray-200">
+          <div class="flex justify-between items-center">
+            <h2 class="text-xl font-semibold text-gray-700">
+              Recent Transactions
+            </h2>
+            <button
+              id="refreshBtn"
+              class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+            >
+              Refresh
+            </button>
+          </div>
+        </div>
+
+        <div id="transactions" class="divide-y divide-gray-200">
+          <!-- Transactions will be loaded here -->
+          <div class="p-4 text-center text-gray-500">
+            Loading transactions...
+          </div>
+        </div>
+      </div>
+
+      <!-- Raw Data Section -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="p-4 border-b border-gray-200">
+          <div class="flex justify-between items-center">
+            <h2 class="text-xl font-semibold text-gray-700">
+              Raw API Response
+            </h2>
+            <button
+              id="toggleRawBtn"
+              class="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 transition-colors"
+            >
+              Show Raw Data
+            </button>
+          </div>
+        </div>
+        <div id="rawData" class="hidden p-4">
+          <pre class="bg-gray-100 p-4 rounded overflow-x-auto text-sm"></pre>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let rawDataVisible = false;
+
+      function toggleRawData() {
+        const rawDataDiv = document.getElementById("rawData");
+        const toggleBtn = document.getElementById("toggleRawBtn");
+        rawDataVisible = !rawDataVisible;
+        rawDataDiv.classList.toggle("hidden");
+        toggleBtn.textContent = rawDataVisible
+          ? "Hide Raw Data"
+          : "Show Raw Data";
+      }
+
+      document
+        .getElementById("toggleRawBtn")
+        .addEventListener("click", toggleRawData);
+
+      async function loadTransactions() {
+        const transactionsDiv = document.getElementById("transactions");
+        const rawDataPre = document.querySelector("#rawData pre");
+        transactionsDiv.innerHTML =
+          '<div class="p-4 text-center text-gray-500">Loading transactions...</div>';
+
+        try {
+          const response = await fetch("/api/transactions");
+          const data = await response.json();
+
+          // Update raw data display
+          rawDataPre.textContent = JSON.stringify(data.raw_data, null, 2);
+
+          if (data.success) {
+            if (data.transactions.length === 0) {
+              transactionsDiv.innerHTML =
+                '<div class="p-4 text-center text-gray-500">No transactions found</div>';
+              return;
+            }
+
+            transactionsDiv.innerHTML = data.transactions
+              .map(
+                (transaction) => `
+                        <div class="bg-white shadow rounded-lg p-4 mb-4">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <p class="text-gray-600 text-sm">${transaction.date}</p>
+                                    <p class="font-medium">${transaction.note}</p>
+                                    <p class="text-sm text-gray-500">
+                                        ${transaction.type} ${transaction.direction} ${transaction.other_person}
+                                    </p>
+                                </div>
+                                <span class="${transaction.color} font-semibold">
+                                    ${transaction.type}
+                                </span>
+                            </div>
+                        </div>
+                    `
+              )
+              .join("");
+          } else {
+            transactionsDiv.innerHTML = `<div class="p-4 text-center text-red-500">Error: ${data.error}</div>`;
+          }
+        } catch (error) {
+          transactionsDiv.innerHTML = `<div class="p-4 text-center text-red-500">Error loading transactions: ${error.message}</div>`;
+        }
+      }
+
+      // Load transactions when page loads
+      document.addEventListener("DOMContentLoaded", loadTransactions);
+
+      // Add click handler for refresh button
+      document
+        .getElementById("refreshBtn")
+        .addEventListener("click", loadTransactions);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,462 @@
+[
+  {
+    "name": "l7_az",
+    "value": "dcg16.slc",
+    "domain": ".venmo.com",
+    "path": "/auth/createchallenge/b040ea849db379a9",
+    "expires": 1745609585.790652,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts",
+    "value": "vreXpYrS%3D1777143785%26vteXpYrS%3D1745609585%26vr%3D6e54fb8a1960ad10a4c6ac39ff1c338a%26vt%3D6e54fb8a1960ad10a4c6ac39ff1c3389%26vtyp%3Dnew",
+    "domain": ".venmo.com",
+    "path": "/auth/createchallenge/b040ea849db379a9",
+    "expires": 1777143785.790671,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts_c",
+    "value": "vr%3D6e54fb8a1960ad10a4c6ac39ff1c338a%26vt%3D6e54fb8a1960ad10a4c6ac39ff1c3389",
+    "domain": ".venmo.com",
+    "path": "/auth/createchallenge/b040ea849db379a9",
+    "expires": 1777143785.790693,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "l7_az",
+    "value": "dcg16.slc",
+    "domain": ".venmo.com",
+    "path": "/auth/recaptcha",
+    "expires": 1745609585.997011,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts",
+    "value": "vreXpYrS%3D1777143786%26vteXpYrS%3D1745609586%26vr%3D6e54fb8a1960ad10a4c6ac39ff1c338a%26vt%3D6e54fb8a1960ad10a4c6ac39ff1c3389%26vtyp%3Dnew",
+    "domain": ".venmo.com",
+    "path": "/auth/recaptcha",
+    "expires": 1777143785.997099,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts_c",
+    "value": "vr%3D6e54fb8a1960ad10a4c6ac39ff1c338a%26vt%3D6e54fb8a1960ad10a4c6ac39ff1c3389",
+    "domain": ".venmo.com",
+    "path": "/auth/recaptcha",
+    "expires": 1777143785.997124,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "l7_az",
+    "value": "dcg16.slc",
+    "domain": ".venmo.com",
+    "path": "/idapps",
+    "expires": 1745609598.817628,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts_c",
+    "value": "vr%3D6e54fb8a1960ad10a4c6ac39ff1c338a%26vt%3D6e54fb8a1960ad10a4c6ac39ff1c3389",
+    "domain": ".venmo.com",
+    "path": "/idapps",
+    "expires": 1777143798.817737,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts",
+    "value": "vreXpYrS%3D1777143798%26vteXpYrS%3D1745609598%26vr%3D6e54fb8a1960ad10a4c6ac39ff1c338a%26vt%3D6e54fb8a1960ad10a4c6ac39ff1c3389%26vtyp%3Dnew",
+    "domain": ".venmo.com",
+    "path": "/idapps",
+    "expires": 1777143798.817672,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "l7_az",
+    "value": "dcg16.slc",
+    "domain": ".venmo.com",
+    "path": "/auth",
+    "expires": 1745609586.799015,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts",
+    "value": "vreXpYrS%3D1777143786%26vteXpYrS%3D1745609586%26vr%3D6e54fb8a1960ad10a4c6ac39ff1c338a%26vt%3D6e54fb8a1960ad10a4c6ac39ff1c3389%26vtyp%3Dnew",
+    "domain": ".venmo.com",
+    "path": "/auth",
+    "expires": 1777143786.799062,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts_c",
+    "value": "vr%3D6e54fb8a1960ad10a4c6ac39ff1c338a%26vt%3D6e54fb8a1960ad10a4c6ac39ff1c3389",
+    "domain": ".venmo.com",
+    "path": "/auth",
+    "expires": 1777143786.799093,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "v_id",
+    "value": "fp01-5adf7646-f478-4a8a-9c92-2720975775f1",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1780167819.740025,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_id",
+    "value": "eca54390-a4d7-4606-a37a-7807da19af9c",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1745609619.740189,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_csrf",
+    "value": "KDamxLpK8q3EbVtQ9PwrtQiU",
+    "domain": "venmo.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_csrf",
+    "value": "6H4mSpffi9zY_hPMTT0UJ7Ps",
+    "domain": "account.venmo.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "enforce_policy",
+    "value": "ccpa",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1777143798.817502,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "d_id",
+    "value": "d2057a178a41430a95e36380b7db3ab31745607785390",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1780167785.286224,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "LANG",
+    "value": "en_US%3BUS",
+    "domain": "id.venmo.com",
+    "path": "/",
+    "expires": 1745639354.817448,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "tsrce",
+    "value": "identityappsnodeweb",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1745866984.286323,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "nsid",
+    "value": "s%3AjWz7S-9Tldotl2jfxGa5c8IN_xVTTaDF.nZW68UabKp8kAt7kCVchBCkoYDOs9UWMRRV%2BbVrJw%2B8",
+    "domain": "id.venmo.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "l7_az",
+    "value": "dcg16.slc",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1745609585.286388,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts",
+    "value": "vreXpYrS%3D1777143785%26vteXpYrS%3D1745609585%26vr%3D6e54fb8a1960ad10a4c6ac39ff1c338a%26vt%3D6e54fb8a1960ad10a4c6ac39ff1c3389%26vtyp%3Dnew",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1777143785.286409,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts_c",
+    "value": "vr%3D6e54fb8a1960ad10a4c6ac39ff1c338a%26vt%3D6e54fb8a1960ad10a4c6ac39ff1c3389",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1777143785.286427,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "enforce_policy",
+    "value": "ccpa",
+    "domain": ".paypal.com",
+    "path": "/",
+    "expires": 1777143786.519748,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "LANG",
+    "value": "en_US%3BUS",
+    "domain": ".paypal.com",
+    "path": "/",
+    "expires": 1745639342.519786,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "tsrce",
+    "value": "privacynodeweb",
+    "domain": ".paypal.com",
+    "path": "/",
+    "expires": 1745866985.519799,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "x-pp-s",
+    "value": "eyJ0IjoiMTc0NTYwNzc4NjYyNSIsImwiOiIwIiwibSI6IjAifQ",
+    "domain": ".paypal.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "nsid",
+    "value": "s%3A6dJLql7rmJ9IHJD25Zd_79VTaAuwQJsF.LDmGPm4a6SnD0GYcQ57RYBkp0inFBSzu79y637yZw1U",
+    "domain": "www.paypal.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "KHcl0EuY7AKSMgfvHl7J5E7hPtK",
+    "value": "hqt4SfExcO_qw6zJMaVTX8NufkYsCeyY19-UgI730gXECeNrg4AJPk0MHDOtLn0aC8rMM8zP5YKXepIZ",
+    "domain": ".paypal.com",
+    "path": "/",
+    "expires": 1780167801.454316,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "l7_az",
+    "value": "dcg15.slc",
+    "domain": ".paypal.com",
+    "path": "/",
+    "expires": 1745609601.454357,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "cookie_prefs",
+    "value": "T%3D0%2CP%3D0%2CF%3D0%2Ctype%3Dinitial",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1777143786.522338,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sc_f",
+    "value": "m-0cg0yaTF-cVIye5YOPUG9OKP-pcYREr9GhW9S7pEwOWjNw3S-kU5_C6iNvThpwFfbpUMizIBOtzQdlv2ZJ0MYCd9k0rFpf2qDrom",
+    "domain": ".paypal.com",
+    "path": "/",
+    "expires": 1780167801.464588,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ts_c",
+    "value": "vr%3D6e5501231966455772c26f71ffef43fb%26vt%3D6e5501231966455772c26f71ffef43fa",
+    "domain": ".paypal.com",
+    "path": "/",
+    "expires": 1777143818.413627,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "fn_dt",
+    "value": "d2057a178a41430a95e36380b7db3ab3",
+    "domain": ".id.venmo.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "tcs",
+    "value": "ice%3Avenmo%3Asignin%7CbtnLogin",
+    "domain": "id.venmo.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "id_token",
+    "value": "724251ea-078d-403e-b12b-6a6e26a5fe30",
+    "domain": ".id.venmo.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "AV894Kt2TSumQQrJwe-8mzmyREO",
+    "value": "S23AAMNvr3YhiRVgQRVV5elSv0Xst0fpFLwto1JNsF5DDHL_CUx1-JS2IwkN7iXEScIYI9pz1iki4MKSsVTrL8c99xUbcEaOg",
+    "domain": ".id.venmo.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "rmuc",
+    "value": "4NlJ6cCXqskfjQ_HJ7bus8jX421WpMOvqPqQzU3vfGYY1ecFHQLPgj2sP7FtqXHG0-SJkPlrtpfk_qaGAlvq7Ef1KCDQRGSUUyboSjseuUuzpzxdLi5B774kljHTY58IN2IksGg1jvKOipx4xUYXAWX6xOAtBhrK8QK9cHBtFfR1xuoj46j8chBxhzqpDCmI2QmrByUETEwzBvdo",
+    "domain": ".id.venmo.com",
+    "path": "/",
+    "expires": 1780167798.657098,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "KHcl0EuY7AKSMgfvHl7J5E7hPtK",
+    "value": "hqt4SfExcO_qw6zJMaVTX8NufkYsCeyY19-UgI730gXECeNrg4AJPk0MHDOtLn0aC8rMM8zP5YKXepIZ",
+    "domain": ".id.venmo.com",
+    "path": "/",
+    "expires": 1780167798.657132,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "datadome",
+    "value": "wr3vo7SDmt6IXmo1OBoPmhnPgO1G7P_hqaCDIa800kex6yDrRL7KPu6YFvCTwPaN9mBzLjGK98kFz4n0qCDIMFQo2QxdL9uxB4B9CpR1sdlghK6xfEizEMNNlkKpHLxx",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1748199798.657333,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "x-pp-s",
+    "value": "eyJ0IjoiMTc0NTYwNzc5ODk0MyIsImwiOiIwIiwibSI6IjAifQ",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "api_access_token",
+    "value": "8d29d71bae52fd593aa28ebe78b77f7e6173ce4da977a3e5543e3bc1fb050f94",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1745609619.663608,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ts",
+    "value": "vreXpYrS%3D1777143818%26vteXpYrS%3D1745609618%26vr%3D6e5501231966455772c26f71ffef43fb%26vt%3D6e5501231966455772c26f71ffef43fa",
+    "domain": ".paypal.com",
+    "path": "/",
+    "expires": 1777143818.413473,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "w_fc",
+    "value": "91ff05a8-133a-4841-af39-347170ecab59",
+    "domain": ".venmo.com",
+    "path": "/",
+    "expires": 1745609619.740165,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "tcs",
+    "value": "%7CMuiButtonBase-root%20MuiIconButton-root%20MuiIconButton-colorInherit%20MuiIconButton-sizeSmall%20css-19svyl3",
+    "domain": "account.venmo.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  }
+]
