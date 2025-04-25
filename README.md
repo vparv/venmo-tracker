@@ -4,6 +4,8 @@ A Flask web application that demonstrates reverse engineering the Venmo API, inc
 
 This is a WIP! It was not meant for production use or for others to use.
 
+Here is a link of it working locally - https://www.loom.com/share/ddf9487a82df477e98bce038abdf66be
+
 ## Features
 
 - 🔐 Automated Venmo authentication with 2FA support
